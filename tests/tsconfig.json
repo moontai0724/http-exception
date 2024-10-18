@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "target": "ESNext",
+    "baseUrl": "../src"
+  },
+  "include": ["./**/*.ts", "../src/**/*.spec.ts"],
+  "references": [
+    {
+      "path": "../src"
+    }
+  ]
+}
